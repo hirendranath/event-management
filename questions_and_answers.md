@@ -1,3 +1,4 @@
+# Question Ans section:
 <div align="center">
   <img height="60" src="https://edurev.gumlet.io/AllImages/original/ApplicationImages/CourseImages/944e5d47-8c55-4a89-91e5-22ab5f2798fc_CI.png">
   <h1>MCQ TEST</h1>
@@ -18,9 +19,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: correct: ReferenceError: greetign is not defined.
 
-<i>Write your explanation here</i>
+<i> It is declared as let greeting; but then assigned a value using the misspelled variable name greetign = {};. That is why results in a ReferenceError</i>
 
 </p>
 </details>
@@ -43,9 +44,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: correct "12".
 
-<i>Write your explanation here</i>
+<i> When you call sum(1, "2");, JavaScript performs type coercion and converts the number 1 to a string to make the operation possible, resulting in the concatenation of the two strings, giving you "12" as the output.</i>
 
 </p>
 </details>
@@ -69,9 +70,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: correct answer is - A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i> When you later assign "🍝" to info.favoriteFood, it only modifies the value of the property within the info object</i>
 
 </p>
 </details>
@@ -94,9 +95,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: correct answer B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>The sayHi function expects a parameter name, but when you call sayHi() without passing any argument, JavaScript assigns undefined to the name parameter by default. Therefore, the function returns "Hi there, undefined"</i>
 
 </p>
 </details>
@@ -122,9 +123,10 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i> The forEach method iterates through the nums array and executes the provided callback function for each element. The callback function checks if the num is truthy (i.e., not equal to 0), and if it is, it increments the count variable by 1</i>
 
 </p>
 </details>
+

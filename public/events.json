@@ -1,0 +1,44 @@
+[
+  {
+      "id": 1,
+      "picture": "https://i.ibb.co/xqJxycM/1.jpg",
+      "title": "Wedding Ceremony",
+      "description": "The main event where the couple exchanges vows and officially becomes married in the presence of family and friends.",
+      "price": 1200
+  },
+  {
+      "id": 2,
+      "picture": "https://i.ibb.co/sgFVK4x/2.jpg",
+      "title": "Reception Dinner",
+      "description": "A celebratory meal and party held after the wedding ceremony, where guests gather to enjoy food, drinks, and entertainment.",
+      "price": 1500
+  },
+  {
+      "id": 3,
+      "picture": "https://i.ibb.co/fv7cCVp/3.jpg",
+      "title": "Engagement Party",
+      "description": "A pre-wedding celebration to announce and celebrate the engagement of the couple, typically held shortly after the proposal.",
+      "price": 800
+  },
+  {
+      "id": 4,
+      "picture": "https://i.ibb.co/BwJGHBn/4.jpg",
+      "title": "Bridal Shower",
+      "description": "A gathering hosted for the bride before the wedding, where she receives gifts and enjoys the company of her female friends and family.",
+      "price": 500
+  },
+  {
+      "id": 5,
+      "picture": "https://i.ibb.co/LxRYMhX/5.jpg ",
+      "title": "Bachelorette Party",
+      "description": "A fun and often adventurous party for the bride and her female friends, typically held shortly before the wedding as a last hurrah before marriage.",
+      "price": 700
+  },
+  {
+      "id": 6,
+      "picture": "https://i.ibb.co/qRxdbd5/6.jpg",
+      "title": "Rehearsal Dinner",
+      "description": "A dinner held the night before the wedding, where the wedding party, close family members, and friends come together to rehearse and celebrate in a more intimate setting.",
+      "price": 1000
+  }
+]

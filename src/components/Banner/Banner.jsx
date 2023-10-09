@@ -17,7 +17,6 @@ const Banner = () => {
         <div className=" justify-center w-full bg-base-100 shadow-xl image-full">
           <div className="card-body">
             <h2 className="justify-center text-4xl">When & Where</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
 
             <div className=" grid justify-center md:grid-cols-2 lg:grid-cols-3 gap-5" >
               {/* when a where 1 */}
@@ -99,7 +98,8 @@ const Banner = () => {
             </div>
             {/*  */}
             <div className="container">
-              <h3 className="text-5xl mt-12">Our All Events</h3>
+              <h3 className="text-5xl mt-12">Our All Services</h3>
+              <p>Opps !!! (6 Services) i can not do it...</p>
             </div>
 
 

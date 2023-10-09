@@ -13,6 +13,7 @@ import Register from './components/Register/Register.jsx';
 import About from './components/About/About.jsx';
 import Contact from './components/Contact/content.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
+import Events from './components/Events/Events.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/events",
+        loader: () => fetch("events.json"),
+        element: <Events></Events>
       },
     
     ]
