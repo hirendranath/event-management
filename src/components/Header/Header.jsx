@@ -5,6 +5,8 @@ const Header = () => {
 
     const nabLinks = <>
         <li> <NavLink to="/" >Home</NavLink> </li>
+        <li> <NavLink to="/about" >About Us</NavLink> </li>
+        <li> <NavLink to="/contact" > Contact </NavLink> </li>
         <li> <NavLink to="/login" >log in</NavLink> </li>
         <li> <NavLink to="/register" >Register</NavLink> </li>
     </>
@@ -22,7 +24,7 @@ const Header = () => {
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl"> <NavLink to="/" > Event Management </NavLink> </a>
+                    <a className="btn btn-ghost normal-case text-xl"> <NavLink to="/" > Weddings Event Management </NavLink> </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
